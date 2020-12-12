@@ -123,7 +123,6 @@ nav{
   100%), url("img/billede-af-mig.jpg") center no-repeat;
   background-size: cover;
   position: relative;
-
 }
 
 .main-message{
@@ -150,6 +149,90 @@ nav{
   text-transform: lowercase;
   line-height: 1.7;
 }
+
+/*hero-projekt*/
+
+.hero-projekt-1{
+  width: 100%;
+  height: 60vh;
+  background: linear-gradient(135deg, rgba(11,24,35,0.9) 0%, rgba(17,36,51,0.6)
+  100%), url("img/billede-af-mig.jpg") center no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-projekt-2{
+  width: 100%;
+  height: 60vh;
+  background: linear-gradient(135deg, rgba(11,24,35,0.9) 0%, rgba(17,36,51,0.6)
+  100%), url("img/billede-af-mig.jpg") center no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-projekt-3{
+  width: 100%;
+  height: 60vh;
+  background: linear-gradient(135deg, rgba(11,24,35,0.9) 0%, rgba(17,36,51,0.6)
+  100%), url("img/billede-af-mig.jpg") center no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-projekt-4{
+  width: 100%;
+  height: 60vh;
+  background: linear-gradient(135deg, rgba(11,24,35,0.9) 0%, rgba(17,36,51,0.6)
+  100%), url("img/billede-af-mig.jpg") center no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-projekt-5{
+  width: 100%;
+  height: 60vh;
+  background: linear-gradient(135deg, rgba(11,24,35,0.9) 0%, rgba(17,36,51,0.6)
+  100%), url("img/billede-af-mig.jpg") center no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-projekt-6{
+  width: 100%;
+  height: 60vh;
+  background: linear-gradient(135deg, rgba(11,24,35,0.9) 0%, rgba(17,36,51,0.6)
+  100%), url("img/billede-af-mig.jpg") center no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.main-message-projekt{
+  width: 100%;
+  max-width: 50rem;
+  color: #fafafa;
+  text-transform: uppercase;
+  transform: translateY(20%);
+}
+
+.main-message-projekt h3{
+  font-size: 1.6rem;
+  font-family: 'Roboto', sans-serif;
+}
+
+.main-message-projekt h1{
+  font-family: 'Roboto', sans-serif;
+  font-size: 4rem;
+  margin: 1rem 0;
+}
+
+.main-message-projekt p{
+  font-family: 'Roboto', sans-serif;
+  text-transform: lowercase;
+  line-height: 1.7;
+}
+
+
+/*button*/
 
 .btn{
   background-color: #67BBCA;
@@ -350,6 +433,26 @@ nav{
   line-height: 1.5;
 }
 
+/*billede-grid*/
+
+.gallery-area{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.single-img{
+  padding: 0 20px 20px;
+}
+
+img:hover{
+  opacity: .5;
+  transition: .9s;
+}
+
+
 
 
 .footer-distributed{
@@ -421,6 +524,10 @@ nav{
   .main-message{
     transform: translateY(40%);
   }
+
+  .main-message-projekt{
+    transform: translateY(40%);
+  }
 }
 
 @media screen and (min-width: 700px){
@@ -484,7 +591,15 @@ nav{
     height: 60vh;
   }
 
+  .hero-projekt{
+    height: 60vh;
+  }
+
   .main-message{
+    transform: translateY(70%);
+  }
+
+  .main-message-projekt{
     transform: translateY(70%);
   }
 
