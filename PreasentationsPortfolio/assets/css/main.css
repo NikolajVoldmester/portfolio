@@ -126,7 +126,7 @@ nav{
   width: 100%;
   height: 80vh;
   background: linear-gradient(135deg, rgba(11,24,35,0.9) 0%, rgba(17,36,51,0.6)
-  100%), url("img/billede-af-mig.jpg") center no-repeat;
+  100%), url("../img/billede-af-mig.jpg") center no-repeat;
   background-size: cover;
   position: relative;
 }
@@ -162,7 +162,7 @@ nav{
   width: 100%;
   height: 60vh;
   background: linear-gradient(135deg, rgba(11,24,35,0.9) 0%, rgba(17,36,51,0.6)
-  100%), url("img/pt-3.jpg") center no-repeat;
+  100%), url("../img/pt-3.jpg") center no-repeat;
   background-size: cover;
   position: relative;
 }
@@ -171,7 +171,7 @@ nav{
   width: 100%;
   height: 60vh;
   background: linear-gradient(135deg, rgba(11,24,35,0.9) 0%, rgba(17,36,51,0.6)
-  100%), url("img/logo-hvid.jpg") center no-repeat;
+  100%), url("../img/logo-hvid.jpg") center no-repeat;
   background-size: cover;
   position: relative;
 }
@@ -180,7 +180,7 @@ nav{
   width: 100%;
   height: 60vh;
   background: linear-gradient(135deg, rgba(11,24,35,0.9) 0%, rgba(17,36,51,0.6)
-  100%), url("img/folder-bg.jpg") center no-repeat;
+  100%), url("../img/folder-bg.jpg") center no-repeat;
   background-size: cover;
   position: relative;
 }
@@ -189,7 +189,7 @@ nav{
   width: 100%;
   height: 60vh;
   background: linear-gradient(135deg, rgba(11,24,35,0.9) 0%, rgba(17,36,51,0.6)
-  100%), url("img/stenplakat.jpg") center no-repeat;
+  100%), url("../img/stenplakat.jpg") center no-repeat;
   background-size: cover;
   position: relative;
 }
@@ -198,7 +198,7 @@ nav{
   width: 100%;
   height: 60vh;
   background: linear-gradient(135deg, rgba(11,24,35,0.9) 0%, rgba(17,36,51,0.6)
-  100%), url("img/video-bg.jpg") center no-repeat;
+  100%), url("../img/video-bg.jpg") center no-repeat;
   background-size: cover;
   position: relative;
 }
@@ -207,7 +207,7 @@ nav{
   width: 100%;
   height: 60vh;
   background: linear-gradient(135deg, rgba(11,24,35,0.9) 0%, rgba(17,36,51,0.6)
-  100%), url("img/app-bg.jpg") center no-repeat;
+  100%), url("../img/app-bg.jpg") center no-repeat;
   background-size: cover;
   position: relative;
 }
@@ -249,7 +249,7 @@ nav{
   padding: 1rem 2.5rem;
   text-transform: uppercase;
   font-weight: bold;
-  transition: background-color: 650ms;
+  transition: 650ms;
 }
 
 .btn:hover{
@@ -312,15 +312,15 @@ nav{
 }
 
 .web-design{
-  background: url("img/web.jpg") center no-repeat;
+  background: url("../img/web.jpg") center no-repeat;
 }
 
 .foto{
-  background: url("img/foto.jpg") center no-repeat;
+  background: url("../img/foto.jpg") center no-repeat;
 }
 
 .animation{
-  background: url("img/animation.jpg") center no-repeat;
+  background: url("../img/animation.jpg") center no-repeat;
 }
 
 .skills-grid-item i{
@@ -344,7 +344,7 @@ nav{
   width: 100%;
   height: 55vh;
   background: linear-gradient(135deg, rgba(11,24,35,1) 0%, rgba(17,36,51,1)
-  100%),url("img/header-bg.jpg") center no-repeat;
+  100%),url("../img/header-bg.jpg") center no-repeat;
   background-size: cover;
   position: relative;
 }
@@ -416,27 +416,27 @@ nav{
 
 
 .projekt1{
-  background: url("img/produkt-1.jpg") center no-repeat;
+  background: url("../img/produkt-1.jpg") center no-repeat;
 }
 
 .projekt2{
-  background: url("img/logo-farve.jpg") center no-repeat;
+  background: url("../img/logo-farve.jpg") center no-repeat;
 }
 
 .projekt3{
-  background: url("img/folder-1.jpg") center no-repeat;
+  background: url("../img/folder-1.jpg") center no-repeat;
 }
 
 .projekt4{
-  background: url("img/stenplakat.jpg") center no-repeat;
+  background: url("../img/stenplakat.jpg") center no-repeat;
 }
 
 .projekt5{
-  background: url("img/video-bg.jpg") center no-repeat;
+  background: url("../img/video-bg.jpg") center no-repeat;
 }
 
 .projekt6{
-  background: url("img/app-bg.jpg") center no-repeat;
+  background: url("../img/app-bg.jpg") center no-repeat;
 }
 
 
